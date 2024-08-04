@@ -1,0 +1,50 @@
+[
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\dma.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\dma.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/dma.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/dma.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\gpio.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\gpio.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/gpio.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/gpio.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\main.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\main.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/main.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/main.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\stm32f1xx_hal_msp.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\stm32f1xx_hal_msp.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/stm32f1xx_hal_msp.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/stm32f1xx_hal_msp.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\stm32f1xx_it.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\stm32f1xx_it.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/stm32f1xx_it.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/stm32f1xx_it.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\system_stm32f1xx.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\system_stm32f1xx.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/system_stm32f1xx.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/system_stm32f1xx.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\tim.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\tim.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/tim.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/tim.c.obj"
+},
+{
+  "directory": "E:/Program/stm32/output/build",
+  "command": "E:\\msys64\\ucrt64\\bin\\cc.exe  @CMakeFiles/MyExecutable.dir/includes_C.rsp -g -o CMakeFiles\\MyExecutable.dir\\Src\\usart.c.obj -c E:\\Program\\stm32\\output\\UART\\Core\\Src\\usart.c",
+  "file": "E:/Program/stm32/output/UART/Core/Src/usart.c",
+  "output": "CMakeFiles/MyExecutable.dir/Src/usart.c.obj"
+}
+]

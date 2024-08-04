@@ -1,0 +1,5 @@
+{
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.sourceDirectory": "E:/Program/stm32/output/UART/Core",
+    "cmake.ignoreCMakeListsMissing": true
+}
