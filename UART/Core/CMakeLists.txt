@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.10)  
-project(MyProject)  
-
-set(CMAKE_CXX_STANDARD 11)  
-set(CMAKE_CXX_STANDARD_REQUIRED ON)  
-
-include_directories(${PROJECT_SOURCE_DIR}/include)  
-aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_FILES)  
-
-add_executable(MyExecutable ${SRC_FILES})
+cmake_minimum_required(VERSION 3.24)  
+project(test)  
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  
+set(CMAKE_CXX_STANDARD 23)  
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -pg -fno-elide-constructors -Wall -fsanitize=address")  
+file(GLOB ALL_SRC_FILES ${PROJECT_SOURCE_DIR}/*.cpp)  
+foreach (SRC_FILE ${ALL_SRC_FILES})  
+    get_filename_component(EXE_NAME ${SRC_FILE} NAME_WE)  
+    add_executable(${EXE_NAME} ${SRC_FILE})  
+endforeach()
